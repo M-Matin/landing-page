@@ -6,8 +6,56 @@
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: #fff;
+  background-image: -webkit-linear-gradient(270deg, #fff, #fff);
+  background-image: linear-gradient(180deg, #fff, #fff);
   font-family: Lato, sans-serif;
   font-size: 15px;
   line-height: 24px;
   font-weight: 400;
+}
+
+.hero-section {
+  height: 600px;
+  background-color: transparent;
+  background-image: -webkit-linear-gradient(300deg, #000, transparent 72%), url('../images/Food-Hero-1260x600.png');
+  background-image: linear-gradient(150deg, #000, transparent 72%), url('../images/Food-Hero-1260x600.png');
+  background-position: 0px 0px, 100% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
+.logo-txt {
+  padding-top: 22px;
+  padding-left: 15px;
+  float: right;
+  color: #444841;
+  font-size: 26px;
+  font-weight: 400;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.body {
+  font-family: Lato, sans-serif;
+}
+
+.nav-link {
+  margin-top: 11px;
+  padding: 10px;
+  -webkit-transition: background-color 400ms ease;
+  transition: background-color 400ms ease;
+  color: #444841;
+  font-size: 13px;
+  line-height: 25px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  padding: 10px;
+  border: 2px solid #f2f800;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #f2f800;
 }
