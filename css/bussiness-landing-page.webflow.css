@@ -3,22 +3,25 @@
   left: 0px;
   top: 0px;
   right: 0px;
+  display: block;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #fff;
+  background-color: transparent;
   background-image: -webkit-linear-gradient(270deg, #fff, #fff);
   background-image: linear-gradient(180deg, #fff, #fff);
   font-family: Lato, sans-serif;
   font-size: 15px;
   line-height: 24px;
   font-weight: 400;
+  text-align: center;
 }
 
 .hero-section {
   height: 600px;
+  padding-top: 166px;
   background-color: transparent;
-  background-image: -webkit-linear-gradient(300deg, #000, transparent 72%), url('../images/Food-Hero-1260x600.png');
-  background-image: linear-gradient(150deg, #000, transparent 72%), url('../images/Food-Hero-1260x600.png');
+  background-image: -webkit-linear-gradient(306deg, #000 10%, transparent 75%), url('../images/Food-Hero-1260x600.png');
+  background-image: linear-gradient(144deg, #000 10%, transparent 75%), url('../images/Food-Hero-1260x600.png');
   background-position: 0px 0px, 100% 50%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -26,10 +29,10 @@
 
 .logo-txt {
   padding-top: 22px;
-  padding-left: 15px;
+  padding-left: 5px;
   float: right;
   color: #444841;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 400;
   text-align: right;
   text-transform: uppercase;
@@ -37,15 +40,17 @@
 
 .body {
   font-family: Lato, sans-serif;
+  color: #000;
 }
 
 .nav-link {
+  display: inline-block;
   margin-top: 11px;
   padding: 10px;
-  -webkit-transition: background-color 400ms ease;
-  transition: background-color 400ms ease;
+  -webkit-transition: background-color 600ms ease;
+  transition: background-color 600ms ease;
   color: #444841;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 25px;
   font-weight: 700;
   letter-spacing: 1px;
@@ -58,4 +63,195 @@
   border-radius: 4px;
   background-color: transparent;
   color: #f2f800;
+}
+
+.navbar-container {
+  position: static;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  width: auto;
+  margin-right: 112px;
+  margin-left: 112px;
+  text-align: center;
+}
+
+.hero-sub-heading {
+  width: 60%;
+  margin-top: 0px;
+  margin-bottom: 60px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+.button {
+  padding: 14px 40px;
+  border: 3px solid #f2f800;
+  border-radius: 4px;
+  background-color: rgba(242, 248, 0, .28);
+  -webkit-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background-color: rgba(242, 248, 0, .76);
+}
+
+.hero-heading {
+  color: #fff;
+  font-weight: 200;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.hero-container {
+  position: relative;
+  left: -70px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  padding-right: 0px;
+}
+
+.main-section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: transparent;
+}
+
+.main-section.yellow {
+  background-color: #f2f800;
+  color: #d7dec6;
+}
+
+.main-section.khaki {
+  background-color: #fff;
+}
+
+.about-block {
+  padding: 20px;
+  text-align: center;
+}
+
+.about-image {
+  display: inline-block;
+  width: 100px;
+  background-color: transparent;
+}
+
+.about-image.track {
+  width: 90px;
+}
+
+.main-section-h1 {
+  color: #525d63;
+  font-weight: 100;
+  text-align: center;
+}
+
+.about-h3 {
+  margin-bottom: 18px;
+  color: #525d63;
+  font-weight: 400;
+}
+
+.about-p {
+  margin-top: 0px;
+  color: #525d63;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 400;
+}
+
+.testemonial-h1 {
+  color: #444841;
+  font-weight: 400;
+  text-align: center;
+}
+
+.testimonial-slider {
+  height: 300px;
+  background-color: transparent;
+  color: #444841;
+}
+
+.testimonial-block {
+  display: block;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.testimonial-image {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 60px;
+}
+
+.testimonial {
+  margin-top: 11px;
+  margin-bottom: 11px;
+  color: #444841;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.testimonial.author {
+  color: #9b9e00;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.arrow {
+  color: #444841;
+}
+
+.sub-head-text {
+  margin-top: 21px;
+  color: #444841;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.form-wrapper {
+  display: block;
+  width: 60%;
+  margin-top: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 0px;
+  text-align: left;
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    position: static;
+    left: 0px;
+    top: 0px;
+    right: auto;
+    bottom: 0px;
+  }
+  .menu {
+    color: #444841;
+  }
 }
