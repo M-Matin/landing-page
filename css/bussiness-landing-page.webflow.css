@@ -136,8 +136,14 @@
   color: #d7dec6;
 }
 
-.main-section.khaki {
+.main-section.lemon {
+  height: auto;
+  padding-bottom: 70px;
   background-color: #fff;
+  background-image: url('../images/lemon.png');
+  background-position: 100% 50%;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
 }
 
 .about-block {
@@ -176,9 +182,10 @@
 }
 
 .testemonial-h1 {
-  color: #444841;
-  font-weight: 400;
-  text-align: center;
+  float: none;
+  color: #444647;
+  font-weight: 300;
+  text-align: left;
 }
 
 .testimonial-slider {
@@ -225,22 +232,87 @@
 }
 
 .sub-head-text {
-  margin-top: 21px;
-  color: #444841;
-  font-size: 20px;
-  line-height: 22px;
-  font-weight: 400;
-  text-align: center;
+  width: 60%;
+  margin-top: 35px;
+  float: none;
+  color: #444647;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 300;
+  text-align: left;
 }
 
 .form-wrapper {
   display: block;
   width: 60%;
   margin-top: 60px;
-  margin-right: auto;
-  margin-left: auto;
   padding-top: 0px;
   text-align: left;
+}
+
+.pic {
+  position: static;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  float: none;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.apple {
+  width: 300px;
+  height: auto;
+  float: right;
+}
+
+.apple-box {
+  background-image: url('../images/fruits-wet-water-droplets-lemons-white-background_www.wall321.com_41.jpg');
+  background-position: 0px 0px;
+  background-size: 300px;
+}
+
+.lemon-container {
+  display: block;
+  text-align: left;
+}
+
+.text-field {
+  width: 75%;
+  height: 50px;
+  float: left;
+  border: 3px solid #4b4b49;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.text-field:focus {
+  border-color: #4b4b49;
+  color: #4b4b49;
+}
+
+.submit-btn {
+  width: 25%;
+  height: 50px;
+  border-style: solid;
+  border-width: 3px 3px 3px 0px;
+  border-color: #4b4b49;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background-color: #fff;
+  -webkit-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+  color: #000;
+  line-height: 19px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.submit-btn:hover {
+  background-color: #f2f800;
 }
 
 @media (max-width: 991px) {
