@@ -382,3 +382,74 @@
     text-align: center;
   }
 }
+
+@media (max-width: 767px) {
+  .hero-section {
+    background-image: -webkit-linear-gradient(328deg, #000 16%, transparent 87%), url('../images/Food-Hero-1260x600.png');
+    background-image: linear-gradient(122deg, #000 16%, transparent 87%), url('../images/Food-Hero-1260x600.png');
+    background-position: 0px 0px, 100% 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+  }
+  .logo-txt.footer-tx {
+    font-size: 15px;
+  }
+  .hero-sub-heading {
+    font-size: 16px;
+  }
+  .button {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .hero-heading {
+    font-size: 23px;
+    font-weight: 300;
+  }
+  .main-section.lemon {
+    background-image: url('../images/lemon.png');
+    background-position: 100% 100%;
+    background-size: auto 70%;
+    background-repeat: no-repeat;
+  }
+  .main-section.footer {
+    display: block;
+  }
+  .about-block {
+    padding-right: 80px;
+    padding-left: 80px;
+  }
+  .testemonial-h1 {
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: left;
+  }
+  .sub-head-text {
+    margin-top: 0px;
+    padding-right: 23px;
+    font-size: 19px;
+  }
+  .form-wrapper {
+    position: static;
+    display: block;
+    padding-left: 0px;
+    font-size: 12px;
+  }
+  .lemon-container {
+    left: 31px;
+    padding-right: 0px;
+  }
+  .text-field {
+    font-size: 10px;
+  }
+  .submit-btn {
+    padding-right: 8px;
+    padding-left: 5px;
+  }
+  .footer-link.nav-link {
+    font-size: 12px;
+  }
+  .footer-logo {
+    float: none;
+  }
+}
