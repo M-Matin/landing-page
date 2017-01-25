@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com -->
-<!--  Last Published: Sun Dec 25 2016 20:44:51 GMT+0000 (UTC)  -->
+<!--  Last Published: Wed Dec 28 2016 02:23:15 GMT+0000 (UTC)  -->
 <html data-wf-page="585f2afa43d9507f363fc8e8" data-wf-site="585f2afa43d9507f363fc8e7">
 <head>
   <meta charset="utf-8">
@@ -23,25 +23,25 @@
   <link href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png" rel="apple-touch-icon">
 </head>
 <body class="body">
-  <div class="navbar w-nav" data-animation="default" data-collapse="medium" data-duration="400">
-    <div class="navbar-container w-container">
+  <div class="nav w-nav" data-animation="default" data-collapse="medium" data-duration="400">
+    <div class="w-container">
       <a class="w-clearfix w-nav-brand" href="#"><img src="images/logo.png" width="55">
         <div class="logo-txt">nutrisystem</div>
       </a>
-      <nav class="w-nav-menu" role="navigation"><a class="nav-link w-nav-link" href="#">Top</a><a class="nav-link w-nav-link" href="#">about</a><a class="nav-link w-nav-link" href="#">testimonial</a><a class="nav-link w-nav-link" href="#">sign up</a>
+      <nav class="w-nav-menu" role="navigation"><a class="nav-link w-nav-link" href="#Hero">Top</a><a class="nav-link w-nav-link" href="#about">about</a><a class="nav-link w-nav-link" href="#testimonial">testimonial</a><a class="nav-link w-nav-link" href="#sign-up">sign up</a>
       </nav>
-      <div class="menu w-nav-button">
+      <div class="menu-btn w-nav-button">
         <div class="w-icon-nav-menu"></div>
       </div>
     </div>
   </div>
-  <div class="hero-section">
+  <div class="hero-section" id="Hero">
     <div class="hero-container w-container">
       <h1 class="hero-heading">Welcome to Nutrsystem</h1>
       <div class="hero-sub-heading">We can't wait to work with you. Sign up below to transform your body in upcoming holiday season!</div><a class="button w-button" href="#">learn more</a>
     </div>
   </div>
-  <div class="main-section">
+  <div class="main-section" id="about">
     <h1 class="main-section-h1">About Us</h1>
     <div class="w-row">
       <div class="w-col w-col-4">
@@ -64,7 +64,7 @@
       </div>
     </div>
   </div>
-  <div class="main-section yellow">
+  <div class="main-section yellow" id="testimonial">
     <div class="w-container">
       <h1 class="testemonial-h1">What they say</h1>
       <div class="testimonial-slider w-slider" data-animation="slide" data-duration="500" data-infinite="1">
@@ -104,9 +104,9 @@
       </div>
     </div>
   </div>
-  <div class="lemon main-section">
+  <div class="lemon main-section" id="sign-up">
     <div class="lemon-container w-container">
-      <h1 class="testemonial-h1">Sign Up For Update</h1>
+      <h1 class="sign-up testemonial-h1">Sign Up For Update</h1>
       <div class="sub-head-text">Sign up below for the most update news, and be the first person who knows launch.</div>
       <div class="form-wrapper w-form">
         <form class="form-wrapper w-clearfix" data-name="Email Form" id="email-form" name="email-form">
@@ -130,7 +130,7 @@
             <h1 class="footer-tx logo-txt">nutrysystem</h1>
           </a>
         </div>
-        <div class="w-clearfix w-col w-col-6"><a class="footer-link nav-link" href="#">sign up</a><a class="footer-link nav-link" href="#">testimonial</a><a class="footer-link nav-link" href="#">about</a><a class="footer-link nav-link" href="#">top</a>
+        <div class="w-clearfix w-col w-col-6"><a class="footer-link nav-link" href="#sign-up">sign up</a><a class="footer-link nav-link" href="#testimonial">testimonial</a><a class="footer-link nav-link" href="#about">about</a><a class="footer-link nav-link" href="#Hero" id="hero">top</a>
         </div>
       </div>
     </div>
