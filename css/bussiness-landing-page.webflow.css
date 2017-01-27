@@ -403,8 +403,24 @@
   .nav-link {
     position: relative;
     display: block;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
     padding-right: 0px;
-    padding-left: 0px;
+    padding-left: 22px;
+    -webkit-transition: background-color 600ms ease;
+    transition: background-color 600ms ease;
+    text-decoration: none;
+  }
+  .nav-link:hover {
+    display: block;
+    margin-right: 0px;
+    padding-right: 0px;
+    border-style: none;
+    border-width: 0px;
+    border-radius: 0px;
+    background-color: transparent;
+    color: #dbe000;
   }
   .hero-container {
     left: 15px;
@@ -417,6 +433,10 @@
     background-position: 100% 100%;
     background-size: auto;
     background-repeat: no-repeat;
+  }
+  .main-section-h1 {
+    margin-top: 10px;
+    margin-bottom: 25px;
   }
   .form-wrapper {
     width: 70%;
@@ -437,11 +457,17 @@
     text-align: center;
   }
   .footer-link.nav-link {
-    margin-left: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
     padding-top: 17px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
   .menu-btn.w--open {
     background-color: transparent;
+  }
+  .nav-menu {
+    background-color: #f4f7f4;
   }
 }
 
