@@ -476,9 +476,10 @@
     display: block;
   }
   .hero-section {
-    background-image: -webkit-linear-gradient(328deg, #000 16%, transparent 87%), url('../images/Food-Hero-1260x600.png');
-    background-image: linear-gradient(122deg, #000 16%, transparent 87%), url('../images/Food-Hero-1260x600.png');
-    background-position: 0px 0px, 100% 50%;
+    padding-top: 90px;
+    background-image: -webkit-linear-gradient(282deg, #000, transparent), url('../images/Food-Hero-1260x600.png');
+    background-image: linear-gradient(168deg, #000, transparent), url('../images/Food-Hero-1260x600.png');
+    background-position: 0px 0px, 50% 100%;
     background-size: auto, cover;
     background-repeat: repeat, no-repeat;
   }
@@ -486,9 +487,16 @@
     font-size: 15px;
   }
   .hero-sub-heading {
-    font-size: 16px;
+    position: static;
+    display: inline-block;
+    width: auto;
+    margin-right: 94px;
+    margin-bottom: 50px;
+    margin-left: 94px;
+    font-size: 17px;
   }
   .button {
+    display: inline-block;
     padding-right: 30px;
     padding-left: 30px;
   }
@@ -496,15 +504,23 @@
     font-size: 23px;
     font-weight: 300;
   }
+  .hero-container {
+    left: 0px;
+    right: 0px;
+    text-align: center;
+  }
   .menu.w--open {
     position: relative;
     float: right;
     background-color: #f4f7f4;
   }
   .main-section.lemon {
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     background-image: url('../images/lemon.png');
-    background-position: 100% 100%;
-    background-size: auto 70%;
+    background-position: 50% 50%;
+    background-size: cover;
     background-repeat: no-repeat;
   }
   .main-section.footer {
@@ -520,30 +536,55 @@
     font-weight: 400;
     text-align: left;
   }
-  .sub-head-text {
+  .testemonial-h1.sign-up {
+    display: inline-block;
     margin-top: 0px;
-    padding-right: 23px;
+    margin-bottom: 20px;
+    color: #000;
+    text-align: center;
+  }
+  .sub-head-text {
+    width: auto;
+    margin-top: 0px;
+    padding-right: 0px;
+    color: #000;
     font-size: 19px;
+    text-align: center;
   }
   .form-wrapper {
-    position: static;
+    position: relative;
     display: block;
+    width: 100%;
     padding-left: 0px;
     font-size: 12px;
+    text-align: center;
   }
   .lemon-container {
-    left: 31px;
-    padding-right: 0px;
+    position: static;
+    left: 35px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+    padding-right: 115px;
+    padding-left: 115px;
+    text-align: center;
   }
   .text-field {
+    border-color: #000;
     font-size: 10px;
   }
   .submit-btn {
     padding-right: 8px;
     padding-left: 5px;
+    border-color: #000;
   }
   .footer-link.nav-link {
+    padding-left: 0px;
     font-size: 12px;
+  }
+  .footer-link.nav-link.w--current {
+    padding-right: 0px;
   }
   .footer-logo {
     float: none;
@@ -554,5 +595,18 @@
     right: 0px;
     bottom: 0px;
     display: block;
+  }
+  .over-lay {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    padding-top: 80px;
+    padding-bottom: 53px;
+    background-color: rgba(0, 0, 0, .5);
   }
 }
