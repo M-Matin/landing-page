@@ -8,9 +8,9 @@ This is a sample of business landing page. I just decided to make it based on a 
 
 
 ## * TABLET VIEW
-![Desktop](images/Tablet View.png)
+![TABLET](images/Tablet View.png)
 ----------
 -------------
 
 ## * MOBILE VIEW
-![Desktop](images/Mobile View.png)
+![MOBILE](images/Mobile View.png)
